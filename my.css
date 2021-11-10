@@ -1,0 +1,24 @@
+body {
+    height: 100%;
+    margin:auto;
+    background-color: #bdb3b3;
+    font-size: 25px;
+    font-weight: bolder;
+    
+}
+h1,h2 {
+    text-align: center;
+    text-shadow: 2px 2px 2px blue;
+    
+}
+legend {
+    background-color: rgb(50, 50, 184);
+    color:white;
+    padding: 10px;
+}
+.legend,.reset {
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(48, 48, 138);
+    color: white;
+}

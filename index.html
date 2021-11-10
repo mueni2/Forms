@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js"></script>
+</head>
+<body>
+    <h1>Anmo's Budget App</h1>
+    <form method="get" action="https://www.google.com/search">
+        <fieldset>
+            <legend>Transactions</legend>
+        <label for="amount">Amount</label>
+        <input type="number" name="q" id="amount" min="5" required>
+        <select name="currency">
+            <option value="KSH">KSH</option>
+            <option value="EUR">EUR</option>
+            <option value="USD">USD</option>
+            <option value="OTHER">OTHER</option>
+        </select>
+        <label for="date">Date:</label>
+        <input type="date" id="date">
+        <br>
+        <h3>Type</h3>
+        <input type="radio" name="type" id="income" value="in">
+        <label for="income">Income</label>
+        <input type="radio" name="type" id="outcome" value="out">
+        <label for="outcome">Outcome</label>
+        <h3>For</h3>
+        <input type="checkbox" name="for" id="myself"value="myself">
+        <label for="myself">Myself</label>
+        <input type="checkbox" name="for" id="friends"value="friends">
+        <label for="friends">Friends</label>
+        <input type="checkbox" name="for" id="family"value="family">
+        <label for="nm">First Name</label>
+        <h3>Notes</h3>
+        <textarea name="notes" id="" cols="30" rows="10" placeholder="Please fill out this section......"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+    </form><br>
+    <h2>Transactions</h2>
+    <br>
+    <table>
+        <tr>
+            <th>Date</th>
+            <th>Amount</th>
+            <th>Explanation</th>
+            <th>Type</th>
+            <th>For</th>
+        </tr>
+        <tr>
+            <td>2021-11-08</td>
+            <td>100 EUR</td>
+            <td>Lunch</td>
+            <td>Income</td>
+            <td>Myself</td>
+        </tr>
+        <tr>
+            <td>2021-11-08</td>
+            <td>100 EUR</td>
+            <td>Lunch</td>
+            <td>Income</td>
+            <td>Friends</td>
+        </tr>
+        <tr>
+            <td>2021-11-08</td>
+            <td>100 EUR</td>
+            <td>Lunch</td>
+            <td>Income</td>
+            <td>Familyf</td>
+        </tr>
+    </table>
+</fieldset>
+</body>
+</html>
